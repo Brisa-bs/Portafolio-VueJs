@@ -1,13 +1,18 @@
 <script setup>
+import linkedin from '/src/assets/linkedin_icon.svg';
+import instagram from '/src/assets/instagram_icon.svg';
+import github from '/src/assets/github_icon.svg';
+import cv from '/src/assets/cv_resume_icon.svg';
+
 const title= 'Brisa Salvatierra';
 const descripcion = 'Tecnica Universitaria en Programación - UTN';
 const residencia = 'Merlo, Buenos Aires, Argentina';
 const presentacion = 'Hola, bienvenido a mi portafolio de proyectos, soy una estudiante de la tecnicatura en programacion';
 const redesSociales = [
-    {id: 1, name: 'linkedin', src: '/src/assets/linkedin_icon.svg', url: '#'},
-    {id: 2, name: 'Instagram', src: '/src/assets/instagram_icon.svg', url: '#'},
-    {id: 3, name: 'github', src: '/src/assets/github_icon.svg', url: '#'},
-    {id: 4, name: 'curriculum', src: '/src/assets/cv_resume_icon.svg', url: '#'},
+    {id: 1, name: 'linkedin', src: linkedin, url: '#'},
+    {id: 2, name: 'Instagram', src: instagram, url: '#'},
+    {id: 3, name: 'github', src: github, url: '#'},
+    {id: 4, name: 'curriculum', src: cv, url: '#'},
  ];
  const telefono = '+54 11 2233-9988'
 </script>
